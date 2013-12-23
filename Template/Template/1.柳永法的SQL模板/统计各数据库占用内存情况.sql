@@ -1,3 +1,5 @@
+
+--http://blog.csdn.net/billpu/article/details/7362139
 ﻿--查询缓冲池内数据库缓冲池中各个数据库的分布情况
 SELECT  DBName = CASE database_id
                    WHEN 32767 THEN N'ResourchDB'
